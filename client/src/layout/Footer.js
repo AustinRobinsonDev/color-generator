@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
     let todaysYear = new Date().getFullYear();
     return (

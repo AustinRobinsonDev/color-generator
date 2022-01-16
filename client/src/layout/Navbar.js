@@ -1,11 +1,12 @@
 import Values from 'values.js';
-const Navbar = ({color, setColor, error, list, setList}) => {
+const Navbar = ({color, setColor, error, setError, list, setList}) => {
     const handleSubmit = (e) => {
         try {
             e.preventDefault();
             let main = new Values(color).all(10)
             setList(main)
         } catch (err) {
+            setError(true)
             console.log(err)
         }
     }

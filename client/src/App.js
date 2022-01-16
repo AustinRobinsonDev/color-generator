@@ -11,7 +11,7 @@ function App() {
   const [list, setList] = useState([])
   return (
     <div className='App'>
-      <Navbar setList={setList} error={error} color={color} setColor={setColor}/>
+      <Navbar setList={setList} setError={setError} error={error} color={color} setColor={setColor}/>
       <ColorList list={list} />
       <Footer />
     </div>
