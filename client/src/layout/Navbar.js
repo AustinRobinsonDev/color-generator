@@ -5,6 +5,7 @@ const Navbar = ({color, setColor, error, setError, list, setList}) => {
             e.preventDefault();
             let main = new Values(color).all(10)
             setList(main)
+            setError(false)
         } catch (err) {
             setError(true)
             console.log(err)

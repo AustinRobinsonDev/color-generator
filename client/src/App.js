@@ -13,7 +13,7 @@ function App() {
     <div className='App'>
       <Navbar setList={setList} setError={setError} error={error} color={color} setColor={setColor}/>
       <ColorList list={list} />
-      <Footer />
+      <Footer list={list} />
     </div>
   );
 }

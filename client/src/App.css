@@ -9,7 +9,7 @@
   font-weight: 500;
 }
 
-footer {
+.footer-empty{
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -17,24 +17,57 @@ footer {
   height: 2.5rem;
 }
 
+.footer-full{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+input {
+  border-radius: 5px;
+  height: 2rem;
+  font-size: 1.3rem;
+}
+
 .App {
-  min-width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
+  background-color: beige;
+  box-sizing: border-box;
 }
 
 .color-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-self: center;
 }
 
 .color-light {
   color:aqua;
 }
+.position-rel {
+  position: relative;
+}
+
+.btn {
+  width: 7.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
 
 .single-color {
-  min-width: 10rem;
+  min-width: 12rem;
   height: 10rem;
+  padding: 1rem;
+}
+.single-color:hover {
+  cursor: pointer;
 }
 
 .m-r {
@@ -50,15 +83,16 @@ h2 {
 }
 
 .navbar {
+  background-color: hsla(157, 61%, 39%, 0.822);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   border-bottom: .1rem solid rgba(0, 0, 0, 0.267);
   box-sizing: border-box;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   width: 100%;
-  margin-bottom: 1rem;
+  max-width: 100vw;
   position: sticky;
   top: 0;
   z-index: 99;
