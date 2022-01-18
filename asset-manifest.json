@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/color-generator/static/css/main.25bb10a7.css",
+    "main.js": "/color-generator/static/js/main.e8dc7e15.js",
+    "static/js/787.db9b214f.chunk.js": "/color-generator/static/js/787.db9b214f.chunk.js",
+    "index.html": "/color-generator/index.html",
+    "main.25bb10a7.css.map": "/color-generator/static/css/main.25bb10a7.css.map",
+    "main.e8dc7e15.js.map": "/color-generator/static/js/main.e8dc7e15.js.map",
+    "787.db9b214f.chunk.js.map": "/color-generator/static/js/787.db9b214f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25bb10a7.css",
+    "static/js/main.e8dc7e15.js"
+  ]
+}
